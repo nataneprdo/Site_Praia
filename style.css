@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+
+header {
+    background-image: url(praia-fundo.jpg);
+    background-position: center;
+    position: relative;
+    content: "";
+    top: 0;
+    left: 0;      
+    height: 100vh;
+    background-size: cover;
+}
+
+header:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 700; /* Bold */
+    font-size: 35px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+header h2 {
+    color: white;
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 700; /* Bold */
+    font-style: italic;
+    font-size: 40px;
+    padding-top: 400px;
+    position: relative;
+    z-index: 1;
+    padding-right: 300px;
+    margin-top: 10px;
+}
+
+.title-principal {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none; /* pra tirar a marcacao */
+    padding: 0;
+    display: flex; /* pra deixar o texto um do lado do outro*/
+    justify-content: center;   /* pra deixar no meio*/
+}
+
+nav li a {
+    display: inline-block;
+    color: #ffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.menu {
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 300;
+}
+
+.container h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family:"Montserrat", sans-serif ;
+    padding-bottom: 50px;
+}
+.imagem1 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.imagem1 img {
+    padding-top: 50px;
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.texto1 {
+    padding-top: 60px;
+    text-align: left;
+    padding-right: 40px;
+    margin-right: 150px;
+    padding-left: 50px;
+}
+
+.texto1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:  700; /* Fonte mais fina */
+}
+
+.texto1 p {
+    padding-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.imagem2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.imagem2 img {
+    width: 600px;
+    height: 400px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.texto2 {
+    text-align: left;
+    padding-right: 40px;
+    padding-left: 100px;
+    margin-top: 100px;
+}
+
+.texto2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:  700; /* Fonte mais fina */
+}
+
+.texto2 p {
+    padding-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.button {
+    width: 300px; /* Ajuste a largura conforme necessário */
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.segunda-parte {
+    padding: 90px;
+    text-align: center;
+    font-size: 25px;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+}
+
+.botao {
+   text-align: center;
+   padding-top: 30px;
+   padding-left: 30px;
+}
+
+.button2 {
+    color: white;
+    padding: 10px;
+    background-color: #049595;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-size: 12px;
+    font-family:"Montserrat", sans-serif; 
+}
+
+.button3 {
+    padding: 5px;
+    color: white;
+    background-color: #049595;
+    border-radius: 50px;
+    font-family:"Montserrat", sans-serif; 
+}
+
+.destino {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destino img {
+    width: 400px;
+    height: 300px;
+    padding-left: 100px;
+}
+
+.destino p {
+    font-family: "Montserrat", sans-serif ;
+    font-size: 18px;
+    color: black;
+    padding-left: 100px;
+    align-items: center;
+}
+
+.rodapé {
+    padding: 4px;
+   background-color: #049595;
+   height: 50px;
+   position: relative;
+   top: 0;
+   left: 0;
+   height: 20vh;
+  
+}
+
